@@ -25,6 +25,6 @@ body {
     padding-left: 2rem;
 }
 
-.navbar-trans {
-    background: transparent;
+.navbar:not(.top-nav-collapse) {
+    background: #ffffff1c!important
 }
