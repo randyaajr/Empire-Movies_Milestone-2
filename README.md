@@ -11,12 +11,12 @@ I personally watch a lot of movies and television (before studying fulltime). At
 
 ## Project Requirements 
 1. **Main Technologies**  <br/>
-    - [] *HTML5* (Required) <br/>
-    - [] *CSS3* (Required) <br/>
-    - [] *Bootstrap* <br/>
-    - [] *JavaScript* (Required) <br/>
-    - [] *jQuery* <br/>
-    - [] *External API's* <br/>
+    - [ ] *HTML5* (Required) <br/>
+    - [ ] *CSS3* (Required) <br/>
+    - [ ] *Bootstrap* <br/>
+    - [ ] *JavaScript* (Required) <br/>
+    - [ ] *jQuery* <br/>
+    - [ ] *External API's* <br/>
 2. **Mandatory Requirements**  <br/>
 A project violating any of these requirements will FAIL
     - [x] *3 Pages*  <br/>
