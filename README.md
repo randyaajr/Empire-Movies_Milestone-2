@@ -10,23 +10,32 @@ I personally watch a lot of movies and television (before studying fulltime). At
 
 
 ## Project Requirements 
-1. **Main Technologies**  <br/>
+
+   **Main Technologies**  <br/>
     - [ ] *HTML5* (Required) <br/>
     - [ ] *CSS3* (Required) <br/>
     - [ ] *Bootstrap* <br/>
     - [ ] *JavaScript* (Required) <br/>
     - [ ] *jQuery* <br/>
     - [ ] *External API's* <br/>
-2. **Mandatory Requirements**  <br/>
+
+## Mandatory Requirements
 A project violating any of these requirements will FAIL
-    - [x] *3 Pages*  <br/>
-    - [x] *Nav menu using Bootstrap*  
-3. **Documentation**  <br/>
-    - [x] *README.md file (Explaining what the site is for and what value it provides to the user)*
-4. **Version Control**  <br/>
-    - [x] *Git & GitHub*  
-5. **Deployment**  <br/>
-    - [x] *Deploy final version to GitHub pages*
+
+1. **Dynamic Front End Project**  <br/>
+    - [x] *Write custom JavaScript, HTML and CSS code to create a front-end web application consisting of one or more HTML pages with significant interactive functionality.* 
+2. **Site Responses**  <br/>
+    - [x] *Use JavaScript to have the site produce relevant responses dependent on users' actions.*
+3. **Information Architecture**  <br/>
+    - [x] *Incorporate a main navigation menu (unless irrelevant) and structured layout (you might want to use Bootstrap to accomplish this).*  
+4. **Documentation**  <br/>
+    - [x] *Write a README.md file for your project that explains what the project does and the value that it provides to its users.*
+5. **Version Control**  <br/>
+    - [x] *Use Git & GitHub for version control.*
+6. **Attribution**  <br/>
+    - [x] *Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.*
+7. **Deployment**  <br/>
+    - [x] *Deploy the final version of your code to a hosting platform such as GitHub Pages.*
 
 ## Built With
 This section lists the frameworks I used to built this project.
