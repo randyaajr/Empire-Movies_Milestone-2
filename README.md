@@ -1,4 +1,4 @@
-# Empire Movies
+# InfoFlix
 -----------
 -----------
 
@@ -43,6 +43,7 @@ This section lists the frameworks I used to built this project.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [Bootstrap](https://getbootstrap.com)
 * [jQuery](https://jquery.com/)
+* [Axios](https://www.npmjs.com/package/axios)
 * [Google Fonts](https://fonts.google.com/)
 * [Balsamiq](https://balsamiq.com/)
 
