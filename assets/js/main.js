@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 //Here is where the data is fetched from the API.  
 function getMovies(searchText) {
-    axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=thewdb')
+    axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=769176e7')
         .then(function(response) {
             console.log(response);
             //Array data will be place inside this variable.
