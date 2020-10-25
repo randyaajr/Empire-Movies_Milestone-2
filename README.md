@@ -3,7 +3,7 @@
 -----------
 
 
-**Spending the weekend inside? You ran out of movies to watch on Netflix? Look no further, Movie Empire has the largest movie database in the world... Oh, It's free too ;)**
+**Spending the weekend inside? You ran out of movies to watch on Netflix? Look no further, InfoFlix has the largest movie database in the world... Oh, It's free too ;)**
 
 ## Project Discription
 I personally watch a lot of movies and television (before studying fulltime). At least once a week, my partner and I would have to jump site to site to find something new to watch... We grew tired of this, and in some cases, would find something else to do! But now that I have learned how to build web apps, why not build something I can use? So here's where my second Milestone project comes into play. This web page will gather movie information from an API and display the data in a similar fashion to the well known web site IMDb.
