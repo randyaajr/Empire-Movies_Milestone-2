@@ -48,3 +48,6 @@ This section lists the frameworks I used to built this project.
 * [Balsamiq](https://balsamiq.com/)
 
 ## UX/UI
+
+## Acknowledgements
+* [OMDb API - The Open Movie Database](http://www.omdbapi.com/)
