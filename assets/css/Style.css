@@ -41,3 +41,30 @@ div .jumbotron {
     margin-top: 10rem;
     background-color: #ffffff1c;
 }
+
+
+/******************************************************************************************************************** index Movie content*/
+
+.well {
+    background-color: #ffffff1c;
+    color: #fafafa;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+#movies img,
+#movie img {
+    width: auto;
+    background-color: #ffffff1c;
+}
+
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+}
