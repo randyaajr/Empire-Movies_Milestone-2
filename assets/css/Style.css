@@ -32,7 +32,7 @@ h3 {
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: #ffffff1c!important
+    background: #ffffff1c!important;
 }
 
 nav a h2 {
@@ -112,4 +112,9 @@ div .film-con {
 .btn-primary {
     color: #fafafa;
     background-color: rgb(66, 66, 66);
+    width: 10rem;
+}
+
+.btn-light {
+    width: 10rem;
 }
