@@ -19,10 +19,11 @@ function getMovies(searchText) {
             //jQuery .each loop will loop through each movie.
             $.each(movies, function(index, movie) {
                 output += `
-                <div class="col-md-3">
-                  <div class="well text-center">
+                <div class="col-sm">
+                  <div class="film-cards text-center">
                     <img src="${movie.Poster}">
                     <h5>${movie.Title}</h5>
+                    <hr>
                     <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
                   </div>
                 </div>
@@ -57,34 +58,36 @@ function getMovie() {
     axios.get("https://api.themoviedb.org/3/movie/" + movieId + "?api_key=98325a9d3ed3ec225e41ccc4d360c817") //New key needed
         .then(function(response) {
             let movie = response.data;
-            //console.log(movie); (For debugging reasons)
+            console.log(movie); //(For debugging reasons)
 
             //Output section which will populate movie.html will requested film data
             let output = `
-          <div class="row">
-            <div class="col-md-4" id="movie-img">
-              <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="thumbnail">
-            </div>
-            <div class="col-md-8">
-              <h2>${movie.title}</h2>
-              <ul class="list-group" id="movie-data">
-                <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
-                <li class="list-group-item"><strong>Released:</strong> ${movie.release_date}</li>
-                <li class="list-group-item"><strong>Rated:</strong> ${movie.vote_average}</li>
-                <li class="list-group-item"><strong>Runtime:</strong> ${movie.runtime} min.</li>
-                <li class="list-group-item"><strong>Production Co:</strong> ${movie.production_companies[0].name} min.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="well" id="movie-overview">
-              <h3>Plot</h3>
-              ${movie.overview}
-              <hr>
-              <a href="http://imdb.com/title/${movie.imdb_id}" target="_blank" class="btn btn-primary">View IMDB</a>
-              <a href="index.html" class="btn btn-default">Go Back To Search</a>
-            </div>
-          </div>
+            <div class="container mx-auto">
+              <div class="row mt-5">
+                <div class="col-sm">
+                  <img class="img-thumbnail" src="https://image.tmdb.org/t/p/w500${movie.poster_path}">
+                </div>  
+                <div class="col-md-8">
+                  <h2>${movie.title}</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
+                    <li class="list-group-item"><strong>Released:</strong> ${movie.release_date}</li>
+                    <li class="list-group-item"><strong>Rated:</strong> ${movie.vote_average}</li>
+                    <li class="list-group-item"><strong>Runtime:</strong> ${movie.runtime} min.</li>
+                    <li class="list-group-item"><strong>Production Co:</strong> ${movie.production_companies[0].name} min.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>  
+              <div class="row">
+                <div class="film-con">
+                  <h3>Plot</h3>
+                  ${movie.overview}
+                  <hr>
+                  <a href="http://imdb.com/title/${movie.imdb_id}" target="_blank" class="btn btn-primary">View IMDB</a>
+                  <a href="index.html" class="btn btn-light">Go Back To Search</a>
+                </div>
+              </div>
       `;
             $('#movie').html(output);
         })
