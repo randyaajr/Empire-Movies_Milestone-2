@@ -62,22 +62,22 @@ function getMovie() {
             //Output section which will populate movie.html will requested film data
             let output = `
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" id="movie-img">
               <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="thumbnail">
             </div>
             <div class="col-md-8">
               <h2>${movie.title}</h2>
-              <ul class="list-group">
+              <ul class="list-group" id="movie-data">
                 <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
                 <li class="list-group-item"><strong>Released:</strong> ${movie.release_date}</li>
                 <li class="list-group-item"><strong>Rated:</strong> ${movie.vote_average}</li>
                 <li class="list-group-item"><strong>Runtime:</strong> ${movie.runtime} min.</li>
-                <li class="list-group-item"><strong>Production Companies:</strong> ${movie.production_companies[0].name} min.</li>
+                <li class="list-group-item"><strong>Production Co:</strong> ${movie.production_companies[0].name} min.</li>
               </ul>
             </div>
           </div>
           <div class="row">
-            <div class="well">
+            <div class="well" id="movie-overview">
               <h3>Plot</h3>
               ${movie.overview}
               <hr>
