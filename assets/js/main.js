@@ -12,7 +12,7 @@ function getMovies(searchText) {
     axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=769176e7')
         .then(function(response) {
             console.log(response);
-            //Array data will be place inside this variable.
+            //Array data will be placed inside this variable.
             let movies = response.data.Search;
             //Each movie will be appended to this variable and then outputted to the screen.
             let output = '';
