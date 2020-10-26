@@ -49,10 +49,7 @@ div .jumbotron {
     background-color: #ffffff1c;
 }
 
-
-/******************************************************************************************************************** index Movie content*/
-
-.well {
+.film-cards {
     background-color: #ffffff1c;
     color: #fafafa;
     margin-bottom: 1rem;
@@ -61,11 +58,13 @@ div .jumbotron {
     border-radius: 0.5rem;
 }
 
-#movies img,
-#movie img {
+.film-cards img {
     width: auto;
-    background-color: #ffffff1c;
+    height: 500px;
 }
+
+
+/******************************************************************************************************************** Media queries*/
 
 @media(min-width:960px) {
     #movies .col-md-3 .well {
@@ -74,4 +73,43 @@ div .jumbotron {
     #movies .col-md-3 img {
         height: 240px;
     }
+}
+
+
+/******************************************************************************************************************** movie.html content*/
+
+.Film-data {
+    margin-top: 10rem;
+}
+
+div .film-cards {
+    overflow: hidden;
+}
+
+.film-con {
+    background-color: #ffffff1c;
+    color: #fafafa;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+div .film-con {
+    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.list-group li {
+    color: #fafafa;
+    background-color: #ffffff1c !important;
+}
+
+
+/******************************************************************************************************************** Buttons*/
+
+.btn-primary {
+    color: #fafafa;
+    background-color: rgb(66, 66, 66);
 }
