@@ -35,3 +35,15 @@ function getMovies(searchText) {
             console.log(err);
         });
 }
+
+//*****************************************************************************************Movie page
+
+/*
+Session storage is used here because it clears when the browser is closed after use. This function will then 
+open up movie.html
+*/
+function movieSelected(id) {
+    sessionStorage.setItem('movieId', id);
+    window.location = 'movie.html';
+    return false;
+}
