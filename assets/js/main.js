@@ -47,3 +47,17 @@ function movieSelected(id) {
     window.location = 'movie.html';
     return false;
 }
+
+//This fuction takes the movie from sessionStorage and display the information on the screen.
+function getMovie() {
+    let movieID = sessionStorage.getItem('movieID');
+
+
+    axios.get('http://www.omdbapi.com?i=' + movieID)
+        .then((response) => {
+            console.log(response);
+        })
+        .catch(function(err) {
+            console.log(err);
+        });
+}
