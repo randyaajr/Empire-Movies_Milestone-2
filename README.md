@@ -54,4 +54,4 @@ This section lists the frameworks I used to built this project.
 
 
 
-* [*Click me to view site*](https://randyaajr.github.io/InfoFlix_Milestone-2/)
+[*Click me to view site*](https://randyaajr.github.io/InfoFlix_Milestone-2/)
