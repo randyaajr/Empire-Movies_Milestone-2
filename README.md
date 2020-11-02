@@ -51,3 +51,7 @@ This section lists the frameworks I used to built this project.
 
 ## Acknowledgements
 * [OMDb API - The Open Movie Database](http://www.omdbapi.com/)
+
+
+
+* [*Click me to view site*](https://randyaajr.github.io/InfoFlix_Milestone-2/)
