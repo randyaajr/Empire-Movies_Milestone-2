@@ -47,7 +47,15 @@
             </div>
         </div>
     </nav>
-    <section class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 mt-5 p-5">
+                <h2 class="text-uppcase">What is InfoFlix?</h2>
+                <p class="text-center">Need to verify film information?</p>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid mt-5 pt-5">
         <div class="row bg-color-contact">
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">Could not find the movie you were looking for?</h3>
@@ -57,10 +65,10 @@
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name">
                         <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email">
-                        <textarea name="moviesummary" id="moviesummary" rows="5" class="form-control" placeholder="Project description"></textarea>
+                        <textarea name="moviesummary" id="moviesummary" rows="5" class="form-control" placeholder="Movie Title/Description"></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                <button type="submit" class="btn btn-secondary">Send Movie Request</button>
                             </div>
                         </div>
                     </form>
