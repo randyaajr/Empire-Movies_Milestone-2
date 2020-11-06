@@ -53,12 +53,15 @@ Bootstrap played a major role in holding everything together and providing ease 
 ## Wireframes
 
 #### Page 1
+  * Navbar with responsive dropdown menu
 <img src="assets/img/info1.PNG" style="margin: 0;">
 
 #### Page 2
+  * When user enters movie they with be greeted with this page. Genre, release date, rated, runtime ect.
 <img src="assets/img/info2.PNG" style="margin: 0;">
 
 #### Page 3
+  * Here the user will find the about page. Not only can they read up on InfoFlix but they can also reachout to us (via emailjs). To top it off, I added links to my favorite streaming (free) services!
 <img src="assets/img/info3.PNG" style="margin: 0;">
 
 ## Acknowledgements
