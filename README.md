@@ -61,7 +61,7 @@ Bootstrap played a major role in holding everything together and providing ease 
 <img src="assets/img/info2.PNG" style="margin: 0;">
 
 #### Page 3
-  * Here the user will find the about page. Not only can they read up on InfoFlix but they can also reachout to us (via emailjs). To top it off, I added links to my favorite streaming (free) services!
+  * Here the user will find the about page. Not only can they read up on InfoFlix but they can also reachout to us (via emailjs). To top it off, I added links to my favorite (free) streaming services!
 <img src="assets/img/info3.PNG" style="margin: 0;">
 
 ## Acknowledgements
