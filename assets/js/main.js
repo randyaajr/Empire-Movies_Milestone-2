@@ -19,7 +19,7 @@ function getMovies(searchText) {
             //jQuery .each loop will loop through each movie.
             $.each(movies, function(index, movie) {
                 output += `
-                <div class="col-sm">
+                <div class="col-sm-6">
                   <div class="film-cards text-center">
                     <img src="${movie.Poster}">
                     <h5>${movie.Title}</h5>
@@ -67,7 +67,7 @@ function getMovie() {
                 <div class="col-sm">
                   <img class="img-thumbnail" src="https://image.tmdb.org/t/p/w500${movie.poster_path}">
                 </div>  
-                <div class="col-md-8">
+                <div class="col">
                   <h2>${movie.title}</h2>
                   <ul class="list-group">
                     <li class="list-group-item"><strong>Genre:</strong> ${movie.genres[0].name}, ${movie.genres[1].name}</li>
@@ -78,16 +78,18 @@ function getMovie() {
                   </ul>
                 </div>
               </div>
-            </div>  
+            </div> 
+            <div class="container"> 
               <div class="row">
-                <div class="film-con">
+                <div class="col-sm-6 film-con">
                   <h3>Plot</h3>
                   ${movie.overview}
                   <hr>
                   <a href="http://imdb.com/title/${movie.imdb_id}" target="_blank" class="btn btn-primary">View on IMDB</a>
-                  <a href="index.html" class="btn btn-light">Go Back To Search</a>
+                  <a href="index.html" class="btn btn-light">To Search</a>
                 </div>
               </div>
+            </div>
       `;
             $('#movie').html(output);
         })

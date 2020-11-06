@@ -50,6 +50,8 @@ This section lists the frameworks I used to built this project.
 ## UX/UI
 Bootstrap played a major role in holding everything together and providing ease of use. The site is laid of so that the user would understand how to access the provided information. How to use labels are in all the headings of the main page.
 
+![Page 1](assets/img/info1.PNG)
+
 ## Acknowledgements
 * [OMDb API - The Open Movie Database](http://www.omdbapi.com/)
 * [whatismymovie - The site which inspired this project](https://www.whatismymovie.com/)
