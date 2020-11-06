@@ -11,6 +11,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/Style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_sIJQBYVX2q9ah3FWcZ1Lr");
+        })();
+    </script>
 </head>
 
 <body>
@@ -50,7 +57,7 @@
                     <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name">
                         <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email">
-                        <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control" placeholder="Project description"></textarea>
+                        <textarea name="moviesummary" id="moviesummary" rows="5" class="form-control" placeholder="Project description"></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
