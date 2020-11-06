@@ -48,6 +48,10 @@ h2 {
     font-family: Lobster, sans-serif;
 }
 
+h5 {
+    color: #fafafa;
+}
+
 span,
 p {
     color: #fafafa;
@@ -165,5 +169,5 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: rgb(66, 66, 66);
 }
