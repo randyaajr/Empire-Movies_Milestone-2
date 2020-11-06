@@ -40,14 +40,35 @@
             </div>
         </div>
     </nav>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Could not find the movie you were looking for?</h3>
+                <h5 class="uppercase text-center">Drop us a message and we will fix that!</h5>
+
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name">
+                        <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email">
+                        <textarea name="projectsummary" id="projectsummary" rows="5" class="form-control" placeholder="Project description"></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container text-center">
             <span>Copyright &copy; InfoFlix</span>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/email.js"></script>
 </body>
 
 </html>
