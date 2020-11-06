@@ -57,6 +57,11 @@ p {
     color: #fafafa;
 }
 
+hr {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
 div .jumbotron {
     margin-top: 4rem;
     background-color: #ffffff1c;
@@ -167,7 +172,7 @@ footer span {
 
 button[type="submit"] {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
     color: #fafafa;
     background-color: rgb(66, 66, 66);
 }
