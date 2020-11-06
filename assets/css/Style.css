@@ -23,6 +23,7 @@ h3 {
 
 .navbar {
     letter-spacing: 0.1rem;
+    color: #fafafa;
     background-color: rgba(56, 56, 56, 0.308);
     z-index: 1;
 }
@@ -32,7 +33,7 @@ h3 {
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: #ffffff1c!important;
+    background: rgb(56, 56, 56)!important;
 }
 
 nav a h2 {
@@ -43,6 +44,11 @@ nav a h2 {
 
 
 /********************************************************************************************************************Center content*/
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
 
 h2 {
     font-family: Lobster, sans-serif;
