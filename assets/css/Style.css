@@ -44,8 +44,17 @@ nav a h2 {
 
 /********************************************************************************************************************Center content*/
 
+h2 {
+    font-family: Lobster, sans-serif;
+}
+
+span,
+p {
+    color: #fafafa;
+}
+
 div .jumbotron {
-    margin-top: 10rem;
+    margin-top: 4rem;
     background-color: #ffffff1c;
 }
 
@@ -117,4 +126,21 @@ div .film-con {
 
 .btn-light {
     width: 10rem;
+}
+
+
+/******************************************************************************************************************** Footer*/
+
+footer {
+    position: fixed;
+    height: 2rem;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+}
+
+footer span {
+    color: #fafafa;
+    font-style: italic;
+    font-weight: bold;
 }
