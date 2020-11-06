@@ -50,13 +50,15 @@ This section lists the frameworks I used to built this project.
 ## UX/UI
 Bootstrap played a major role in holding everything together and providing ease of use. The site is laid of so that the user would understand how to access the provided information. How to use labels are in all the headings of the main page.
 
-### Page 1
+## Wireframes
+
+#### Page 1
 <img src="assets/img/info1.PNG" style="margin: 0;">
 
-### Page 2
+#### Page 2
 <img src="assets/img/info2.PNG" style="margin: 0;">
 
-### Page 3
+#### Page 3
 <img src="assets/img/info3.PNG" style="margin: 0;">
 
 ## Acknowledgements
